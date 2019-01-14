@@ -58,6 +58,6 @@ export class Player {
   }
 
   _draw() {
-    game.display.draw(this._x, this._y, "@", "#ff0");
+    game.display.draw(this._x, this._y, "#", "#ff0");
   }
 }

@@ -48,7 +48,7 @@ export class Game {
   _generateMap() {
     // Initially, the map is completely empty.
     for (let i = 0; i < this.width; i++) {
-      for (let j = 0; j < this.height; j++) {
+      for (let j = 1; j < this.height; j++) {
         this.map[`${i},${j}`] = null;
       }
     }
